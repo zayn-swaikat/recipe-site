@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from './Header';
+import Header from './pages/Header';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <h1>This is the bottom of the page.</h1>
         
       </main>
+      <Footer />
     </Router>
   );
 }

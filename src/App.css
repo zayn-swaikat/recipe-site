@@ -1,12 +1,4 @@
-/*Love you Zeke <3
-
-Light Theme: 
-
-Background - #FFF8F0
-Primary - #E07A5F
-Secondary - #3D405B
-Text - #1A1A1A
-Accent - #F2CC8F
+/*Love you Meke <3
 
 Dark Theme: 
 
@@ -17,7 +9,12 @@ Text - #F5F5F5
 Accent - #F2CC8F*/
 
 :root{
-  --header-height: 4rem;
+  --header-height: 5rem;
+  --background: #FFF8F0;
+  --primary: #E07A5F;
+  --secondary: #3D405B;
+  --text: #1A1A1A;
+  --accent: #F2CC8F;
 }
 
 .App {
@@ -29,8 +26,12 @@ Accent - #F2CC8F*/
 }
 
 body {
-  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -43,20 +44,19 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #FFF8F0;
-  border-bottom: 2px solid #E07A5F;
+  background-color: var(--background);
+  border-bottom: 2px solid var(--primary);
   box-shadow: 0 0.125rem 0.5rem rgba(224, 122, 95, 0.10);
 }
 
 header img {
   height: 85%;
-  margin-left: 0.2rem;
-  margin-right: 0.2rem;
+  margin: 0 0.2rem;
 }
 
 nav a {
   text-decoration: none;
-  color: #1A1A1A;
+  color: var(--text);
   font-weight: bold;
   padding: 0.5em 1em;
   border-radius: 4px;
@@ -64,7 +64,7 @@ nav a {
 }
 
 nav a:hover {
-  background: #F2CC8F;
+  background: var(--accent);
 }
 
 .header-show {
@@ -75,4 +75,51 @@ nav a:hover {
 .header-hide {
   transform: translateY(-100%);
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer {
+  background: var(--secondary);
+  color: var(--text);
+  padding: 2rem;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  gap: 1rem;
+  color: var(--background);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-nav a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.footer-nav a:hover {
+  color: var(--primary);
+}
+
+.footer-copy {
+  font-size: 0.875rem;
+  opacity: 0.8;
+  color: var(--background);
 }
