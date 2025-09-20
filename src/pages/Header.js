@@ -27,13 +27,15 @@ function Header() {
 
   return (
     <header className={scrollDir === 'down' ? 'header-hide' : 'header-show'}>
+      <div className="logo-title">
         <img src="/assets/logo1.png" alt="Logo" />
-        
-        <nav>
-            <Link to="/">Home</Link>
-            <Link to="/recipes">Recipes</Link>
-            <Link to="/contact">Contact</Link>
-        </nav>
+        <h1>YummiFy</h1>
+      </div>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/recipes">Recipes</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
     </header>
   );
 }

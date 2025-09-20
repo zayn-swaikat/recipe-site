@@ -49,9 +49,20 @@ header {
   box-shadow: 0 0.125rem 0.5rem rgba(224, 122, 95, 0.10);
 }
 
-header img {
-  height: 85%;
-  margin: 0 0.2rem;
+header .logo-title {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+header .logo-title img {
+  width:5rem;
+}
+
+header .logo-title h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  color: var(--primary);
 }
 
 nav a {
@@ -60,7 +71,7 @@ nav a {
   font-weight: bold;
   padding: 0.5em 1em;
   border-radius: 4px;
-  transition: background 0.2s;
+  transition: background 0.2s; /* ?? */
 }
 
 nav a:hover {
