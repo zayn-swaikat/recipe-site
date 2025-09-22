@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Love you Meke <3
 
 Dark Theme: 
@@ -7,6 +8,10 @@ Primary - #E07A5F
 Secondary - #8D99AE
 Text - #F5F5F5
 Accent - #F2CC8F*/
+=======
+
+/*Love you Meke <3*/
+>>>>>>> matt-header
 
 :root{
   --header-height: 5rem;
@@ -15,6 +20,17 @@ Accent - #F2CC8F*/
   --secondary: #3D405B;
   --text: #1A1A1A;
   --accent: #F2CC8F;
+<<<<<<< HEAD
+=======
+}
+
+[data-darkmode='dark'] {
+  --background: #1E1E1E;
+  --primary: #E07A5F;
+  --secondary: #8D99AE;
+  --text: #F5F5F5;
+  --accent: #A77C50;
+>>>>>>> matt-header
 }
 
 .App {
@@ -174,6 +190,10 @@ nav a:hover {
   font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 1rem 0;
+<<<<<<< HEAD
+=======
+  color: var(--text);
+>>>>>>> matt-header
 }
 
 .categories {
@@ -182,6 +202,13 @@ nav a:hover {
   margin-bottom: 0.8rem;
 }
 
+<<<<<<< HEAD
+=======
+.categories span {
+  color: var(--text);
+}
+
+>>>>>>> matt-header
 .category {
   font-size: 0.8rem;
   padding: 0.2rem 0.6rem;
@@ -236,4 +263,8 @@ nav a:hover {
   gap: 2rem;
   justify-content: space-evenly;
   flex-wrap: wrap;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> matt-header
