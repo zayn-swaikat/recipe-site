@@ -73,7 +73,7 @@ nav a {
   font-weight: bold;
   padding: 0.5em 1em;
   border-radius: 4px;
-  transition: background 0.2s; /* ?? */
+  transition: background 0.2s;
 }
 
 nav a:hover {
@@ -148,7 +148,6 @@ nav a:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin: 2rem;
 }
 
 .recipe-card:hover {
@@ -229,9 +228,12 @@ nav a:hover {
   color: white;
 }
 
+/*Recipe Page*/
+
 .cards-container {
+  margin: 3rem;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
