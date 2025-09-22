@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { useTheme } from "../ThemeContext";
 import { Link } from 'react-router-dom'
 
 function Header() {
 
+  const { mode, changeDarkMode } = useTheme(); //darkmode button
   const [scrollDir, setScrollDir] = useState(null);
 
   useEffect(() => {
@@ -28,12 +30,18 @@ function Header() {
   return (
     <header className={scrollDir === 'down' ? 'header-hide' : 'header-show'}>
         <img src="/assets/logo1.png" alt="Logo" />
-        
-        <nav>
-            <Link to="/">Home</Link>
-            <Link to="/recipes">Recipes</Link>
-            <Link to="/contact">Contact</Link>
-        </nav>
+        <h1>YummiFy</h1>
+
+        <button onClick={changeDarkMode}>
+        {mode === "light" ? "Dark Mode" : "Light Mode"}
+        </button>
+
+      </div>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/recipes">Recipes</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
     </header>
   );
 }

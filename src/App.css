@@ -1,23 +1,21 @@
-/*Love you Zeke <3
 
-Light Theme: 
-
-Background - #FFF8F0
-Primary - #E07A5F
-Secondary - #3D405B
-Text - #1A1A1A
-Accent - #F2CC8F
-
-Dark Theme: 
-
-Background - #1E1E1E
-Primary - #E07A5F
-Secondary - #8D99AE
-Text - #F5F5F5
-Accent - #F2CC8F*/
+/*Love you Meke <3*/
 
 :root{
-  --header-height: 4rem;
+  --header-height: 5rem;
+  --background: #FFF8F0;
+  --primary: #E07A5F;
+  --secondary: #3D405B;
+  --text: #1A1A1A;
+  --accent: #F2CC8F;
+}
+
+[data-darkmode='dark'] {
+  --background: #1E1E1E;
+  --primary: #E07A5F;
+  --secondary: #8D99AE;
+  --text: #F5F5F5;
+  --accent: #A77C50;
 }
 
 .App {
@@ -75,4 +73,157 @@ nav a:hover {
 .header-hide {
   transform: translateY(-100%);
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*Footer*/
+
+.footer {
+  background: var(--secondary);
+  color: var(--text);
+  padding: 2rem;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  gap: 1rem;
+  color: var(--background);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-nav a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.footer-nav a:hover {
+  color: var(--primary);
+}
+
+.footer-copy {
+  font-size: 0.875rem;
+  opacity: 0.8;
+  color: var(--background);
+}
+
+/*Recipe Card*/
+
+.recipe-card {
+  width: 300px;
+  background: var(--background);
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.recipe-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.recipe-card:hover img {
+  transform: scale(1.1);
+}
+
+.recipe-card-content {
+  padding: 1rem;
+}
+
+.recipe-card-content h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem 0;
+  color: var(--text);
+}
+
+.categories {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.categories span {
+  color: var(--text);
+}
+
+.category {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  border: 1px solid var(--text);
+  transition: all 0.4s ease;
+}
+
+.category:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+  cursor: pointer;
+}
+
+.recipe-card-content p {
+  font-size: 0.9rem;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.servings {
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.see-more {
+  background: var(--accent);
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.see-more:hover {
+  background: var(--primary);
+  color: white;
+}
+
+/*Recipe Page*/
+
+.cards-container {
+  margin: 3rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }

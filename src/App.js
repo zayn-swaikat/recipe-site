@@ -1,10 +1,15 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from './Header';
+import Header from './pages/Header';
+import Footer from './pages/Footer';
+import RecipeCard from './pages/Card'; //this import isn't being used yet. Delete?
+import Recipes from './pages/Recipes';
+import { ThemeProvider } from "./ThemeContext";
 
 function App() {
   return (
     <Router>
+      <ThemeProvider> {/* <== This is the darkmode, so it has to wrap everything*/}
       <Header />
       <main className="main-content">
         <Routes>
@@ -17,6 +22,8 @@ function App() {
         <h1>This is the bottom of the page.</h1>
         
       </main>
+      <Footer />
+      </ThemeProvider>
     </Router>
   );
 }
