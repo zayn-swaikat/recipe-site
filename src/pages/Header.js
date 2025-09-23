@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { useTheme } from "../ThemeContext";
 import { Link } from 'react-router-dom'
 
 function Header() {
 
+  const { mode, changeDarkMode } = useTheme(); //darkmode button
   const [scrollDir, setScrollDir] = useState(null);
 
   useEffect(() => {
@@ -30,6 +32,11 @@ function Header() {
       <div className="logo-title">
         <img src="/assets/logo1.png" alt="Logo" />
         <h1>YummiFy</h1>
+
+        <button onClick={changeDarkMode}>
+        {mode === "light" ? "Dark Mode" : "Light Mode"}
+        </button>
+
       </div>
       <nav>
         <Link to="/">Home</Link>

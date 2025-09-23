@@ -4,10 +4,12 @@ import Header from './pages/Header';
 import Footer from './pages/Footer';
 import RecipeCard from './pages/Card';
 import Recipes from './pages/Recipes';
+import { ThemeProvider } from "./ThemeContext";
 
 function App() {
   return (
     <Router>
+      <ThemeProvider> {/* <== This is the darkmode, so it has to wrap everything*/}
       <Header />
       <main className="main-content">
         <Routes>
@@ -17,6 +19,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      </ThemeProvider>
     </Router>
   );
 }

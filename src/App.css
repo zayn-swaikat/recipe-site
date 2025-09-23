@@ -1,20 +1,21 @@
-/*Love you Meke <3
-
-Dark Theme: 
-
-Background - #1E1E1E
-Primary - #E07A5F
-Secondary - #8D99AE
-Text - #F5F5F5
-Accent - #F2CC8F*/
 
 :root{
   --header-height: 5rem;
   --background: #FFF8F0;
+  --background-secondary: #FAF3E7; 
   --primary: #E07A5F;
   --secondary: #3D405B;
   --text: #1A1A1A;
   --accent: #F2CC8F;
+}
+
+[data-darkmode='dark'] {
+  --background: #1E1E1E;
+  --background-secondary: #2A2A2A;
+  --primary: #E07A5F;
+  --secondary: #8D99AE;
+  --text: #F5F5F5;
+  --accent: #A77C50;
 }
 
 .App {
@@ -23,10 +24,12 @@ Accent - #F2CC8F*/
 
 .main-content {
   padding-top: var(--header-height);
+  background-color: var(--background-secondary);
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: var(--background-secondary);
   margin: 0;
 }
 
@@ -174,6 +177,7 @@ nav a:hover {
   font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 1rem 0;
+  color: var(--text);
 }
 
 .categories {
@@ -188,6 +192,7 @@ nav a:hover {
   border-radius: 12px;
   border: 1px solid var(--text);
   transition: all 0.4s ease;
+  color: var(--text);
 }
 
 .category:hover {
