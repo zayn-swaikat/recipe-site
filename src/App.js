@@ -2,7 +2,6 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './pages/Header';
 import Footer from './pages/Footer';
-import RecipeCard from './pages/Card';
 import Recipes from './pages/Recipes';
 import { ThemeProvider } from "./ThemeContext";
 

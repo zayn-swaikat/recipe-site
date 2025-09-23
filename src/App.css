@@ -10,12 +10,12 @@
 }
 
 [data-darkmode='dark'] {
-  --background: #1E1E1E;
-  --background-secondary: #2A2A2A;
+  --background: #2B2B2B;
+  --background-secondary: #3A3A3A;
   --primary: #E07A5F;
-  --secondary: #8D99AE;
-  --text: #F5F5F5;
-  --accent: #A77C50;
+  --secondary: #c1b9b198;
+  --text: #F8F5F0;
+  --accent: #f03400;
 }
 
 .App {
@@ -100,6 +100,7 @@ nav a:hover {
   color: var(--text);
   padding: 2rem;
   text-align: center;
+  border-top: 5px solid var(--primary);
 }
 
 .image {
@@ -120,13 +121,17 @@ nav a:hover {
   height: 70px;
 }
 
+.image h2 {
+  color: var(--accent);
+}
+
 .footer-nav {
   display: flex;
   gap: 1rem;
 }
 
 .footer-nav a {
-  color: var(--accent);
+  color: var(--background);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
@@ -250,6 +255,7 @@ nav a:hover {
 .hero {
   text-align: center;
   margin-bottom: 2rem;
+  color: var(--text);
 }
 
 .hero h1 {
