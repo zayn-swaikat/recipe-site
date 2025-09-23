@@ -3,7 +3,7 @@
     "id": 1,
     "image": "/assets/icecream.png",
     "title": "Vanilla Ice Cream",
-    "categories": ["Dessert", "Healthy"],
+    "categories": ["dessert"],
     "description": "Delicious homemade ice cream with natural flavors.",
     "servings": 2
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "image": "/assets/pizza.png",
     "title": "Margherita Pizza",
-    "categories": ["Vegetarian", "Italian", "Cheesy"],
+    "categories": ["dinner", "vegetarian"],
     "description": "Classic pizza topped with fresh mozzarella, basil, and tomatoes.",
     "servings": 4
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "image": "/assets/salad.png",
     "title": "Greek Salad",
-    "categories": ["Healthy", "Gluten Free", "Fresh"],
+    "categories": ["healthy", "vegan"],
     "description": "A refreshing salad with feta, cucumber, olives, and tomatoes.",
     "servings": 3
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "image": "/assets/pasta.png",
     "title": "Spaghetti Carbonara",
-    "categories": ["Italian", "Creamy", "Comfort Food"],
+    "categories": ["dinner"],
     "description": "Traditional Roman pasta made with eggs, cheese, pancetta, and pepper.",
     "servings": 2
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "image": "/assets/burger.png",
     "title": "Beef Burger",
-    "categories": ["American", "Juicy", "Cheesy"],
+    "categories": ["dinner"],
     "description": "Grilled beef patty with melted cheese, lettuce, and tomato in a toasted bun.",
     "servings": 1
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "image": "/assets/cake.png",
     "title": "Chocolate Cake",
-    "categories": ["Dessert", "Sweet", "Rich"],
+    "categories": ["dessert"],
     "description": "Moist chocolate cake layered with creamy chocolate ganache.",
     "servings": 6
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "image": "/assets/soup.png",
     "title": "Tomato Basil Soup",
-    "categories": ["Vegetarian", "Comfort Food", "Warm"],
+    "categories": ["soup", "healthy"],
     "description": "A creamy tomato soup simmered with fresh basil and served hot.",
     "servings": 2
   },
@@ -59,8 +59,200 @@
     "id": 8,
     "image": "/assets/sushi.png",
     "title": "Sushi Rolls",
-    "categories": ["Japanese", "Seafood", "Fresh"],
+    "categories": ["seafood", "dinner"],
     "description": "Delicate rolls filled with rice, nori, and fresh fish or veggies.",
+    "servings": 4
+  },
+  {
+    "id": 9,
+    "image": "/assets/pancakes.png",
+    "title": "Fluffy Pancakes",
+    "categories": ["breakfast", "dessert"],
+    "description": "Stack of golden pancakes topped with maple syrup and butter.",
+    "servings": 3
+  },
+  {
+    "id": 10,
+    "image": "/assets/smoothie.png",
+    "title": "Berry Smoothie",
+    "categories": ["drink", "healthy", "vegan"],
+    "description": "Refreshing smoothie with mixed berries, banana, and almond milk.",
+    "servings": 1
+  },
+  {
+    "id": 11,
+    "image": "/assets/omelette.png",
+    "title": "Cheese Omelette",
+    "categories": ["breakfast"],
+    "description": "Fluffy omelette stuffed with melted cheese and fresh herbs.",
+    "servings": 1
+  },
+  {
+    "id": 12,
+    "image": "/assets/tacos.png",
+    "title": "Chicken Tacos",
+    "categories": ["dinner"],
+    "description": "Soft tortillas filled with grilled chicken, salsa, and guacamole.",
+    "servings": 3
+  },
+  {
+    "id": 13,
+    "image": "/assets/granola.png",
+    "title": "Yogurt Parfait",
+    "categories": ["breakfast", "healthy"],
+    "description": "Layers of creamy yogurt, crunchy granola, and fresh fruits.",
+    "servings": 2
+  },
+  {
+    "id": 14,
+    "image": "/assets/steak.png",
+    "title": "Grilled Steak",
+    "categories": ["dinner"],
+    "description": "Juicy beef steak grilled to perfection with herbs and garlic butter.",
+    "servings": 2
+  },
+  {
+    "id": 15,
+    "image": "/assets/falafel.png",
+    "title": "Falafel Wrap",
+    "categories": ["vegan", "healthy"],
+    "description": "Crispy falafel balls wrapped in pita bread with tahini sauce.",
+    "servings": 2
+  },
+  {
+    "id": 16,
+    "image": "/assets/coffee.png",
+    "title": "Cappuccino",
+    "categories": ["drink", "breakfast"],
+    "description": "Classic Italian coffee with steamed milk and frothy foam.",
+    "servings": 1
+  },
+  {
+    "id": 17,
+    "image": "/assets/fries.png",
+    "title": "French Fries",
+    "categories": ["snack"],
+    "description": "Crispy golden potato fries, lightly salted and served hot.",
+    "servings": 2
+  },
+  {
+    "id": 18,
+    "image": "/assets/shrimp.png",
+    "title": "Garlic Butter Shrimp",
+    "categories": ["seafood", "dinner"],
+    "description": "Shrimps sautéed in garlic butter sauce with a squeeze of lemon.",
+    "servings": 2
+  },
+  {
+    "id": 19,
+    "image": "/assets/ramen.png",
+    "title": "Ramen Noodle Soup",
+    "categories": ["soup", "dinner"],
+    "description": "Japanese-style noodle soup with broth, vegetables, and soft-boiled egg.",
+    "servings": 2
+  },
+  {
+    "id": 20,
+    "image": "/assets/brownies.png",
+    "title": "Fudgy Brownies",
+    "categories": ["dessert"],
+    "description": "Rich chocolate brownies with a gooey center and crispy top.",
+    "servings": 6
+  },
+  {
+    "id": 21,
+    "image": "/assets/fattoush.png",
+    "title": "Fattoush",
+    "categories": ["healthy", "vegan", "dinner"],
+    "description": "Fresh Lebanese salad with toasted pita, tomatoes, cucumbers, and sumac.",
+    "servings": 3
+  },
+  {
+    "id": 22,
+    "image": "/assets/hummus.png",
+    "title": "Hummus",
+    "categories": ["vegan", "healthy", "snack"],
+    "description": "Creamy chickpea dip blended with tahini, lemon, and garlic.",
+    "servings": 4
+  },
+  {
+    "id": 23,
+    "image": "/assets/kebab.png",
+    "title": "Shish Kebab",
+    "categories": ["dinner"],
+    "description": "Grilled marinated meat skewers served with vegetables and rice.",
+    "servings": 2
+  },
+  {
+    "id": 24,
+    "image": "/assets/manaeesh.png",
+    "title": "Manakeesh Zaatar",
+    "categories": ["breakfast", "vegan"],
+    "description": "Levantine flatbread topped with zaatar and olive oil, baked to perfection.",
+    "servings": 2
+  },
+  {
+    "id": 25,
+    "image": "/assets/halawet-jibn.png",
+    "title": "Halawet El Jibn",
+    "categories": ["dessert"],
+    "description": "Sweet cheese rolls soaked in sugar syrup, a traditional Middle Eastern treat.",
+    "servings": 4
+  },
+  {
+    "id": 26,
+    "image": "/assets/maqlouba.png",
+    "title": "Maqlouba",
+    "categories": ["healthy", "dinner"],
+    "description": "Upside-down rice dish layered with fried vegetables and meat, classic Levantine comfort food.",
+    "servings": 3
+  },
+  {
+    "id": 27,
+    "image": "/assets/laban.png",
+    "title": "Laban Ayran",
+    "categories": ["drink", "healthy"],
+    "description": "Refreshing yogurt-based drink with a hint of salt.",
+    "servings": 1
+  },
+  {
+    "id": 28,
+    "image": "/assets/knafeh.png",
+    "title": "Knafeh",
+    "categories": ["dessert"],
+    "description": "Sweet cheese pastry soaked in sugar syrup, a popular Middle Eastern treat.",
+    "servings": 4
+  },
+  {
+    "id": 29,
+    "image": "/assets/shorbat-adas.png",
+    "title": "Lentil Soup",
+    "categories": ["soup", "healthy", "vegan"],
+    "description": "Warm and hearty lentil soup flavored with cumin and lemon.",
+    "servings": 3
+  },
+  {
+    "id": 30,
+    "image": "/assets/warak-enab.png",
+    "title": "Warak Enab",
+    "categories": ["vegan", "healthy", "snack"],
+    "description": "Stuffed grape leaves with rice, herbs, and spices, served cold or warm.",
+    "servings": 3
+  },
+  {
+    "id": 31,
+    "image": "/assets/molokhia.jpg",
+    "title": "Molokhia",
+    "categories": ["dinner", "healthy"],
+    "description": "Traditional Levantine leafy green stew, served with rice or bread.",
+    "servings": 3
+  },
+  {
+    "id": 32,
+    "image": "/assets/kibbeh.png",
+    "title": "Fried Kibbeh",
+    "categories": ["dinner", "snack"],
+    "description": "Crispy fried bulgur shells stuffed with spiced minced meat and pine nuts.",
     "servings": 4
   }
 ]
