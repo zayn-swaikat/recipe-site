@@ -11,7 +11,7 @@
     "id": 2,
     "image": "/assets/pizza.png",
     "title": "Margherita Pizza",
-    "categories": ["dinner", "vegetarian"],
+    "categories": ["dinner"],
     "description": "Classic pizza topped with fresh mozzarella, basil, and tomatoes.",
     "servings": 4
   },
@@ -131,7 +131,7 @@
     "id": 17,
     "image": "/assets/fries.png",
     "title": "French Fries",
-    "categories": ["snack"],
+    "categories": ["snack", "dinner"],
     "description": "Crispy golden potato fries, lightly salted and served hot.",
     "servings": 2
   },
@@ -211,7 +211,7 @@
     "id": 27,
     "image": "/assets/laban.png",
     "title": "Laban Ayran",
-    "categories": ["drink", "healthy"],
+    "categories": ["drink", "healthy", "breakfast"],
     "description": "Refreshing yogurt-based drink with a hint of salt.",
     "servings": 1
   },
@@ -259,7 +259,7 @@
     "id": 33,
     "image": "/assets/arabic-coffee.png",
     "title": "Arabic Coffee",
-    "categories": ["drink", "hot"],
+    "categories": ["drink"],
     "description": "Traditional Arabic coffee served in small cups, often spiced with cardamom.",
     "servings": 1
   },
@@ -274,7 +274,7 @@
   {
     "id": 35,
     "image": "/assets/spicy-fish.png",
-    "title": "Samak Hurra (Spicy Fish)",
+    "title": "Spicy Fish",
     "categories": ["dinner", "seafood"],
     "description": "Spicy grilled fish with local herbs and seasonings.",
     "servings": 2
@@ -419,7 +419,7 @@
     "id": 53,
     "image": "/assets/mushroom-soup.png",
     "title": "Mushroom Soup",
-    "categories": ["soup"],
+    "categories": ["soup", "healthy", "dinner"],
     "description": "Creamy soup made with fresh mushrooms and herbs.",
     "servings": 2
   },
@@ -427,7 +427,7 @@
     "id": 54,
     "image": "/assets/vegetable-soup.png",
     "title": "Vegetable Soup",
-    "categories": ["soup", "healthy"],
+    "categories": ["soup", "healthy", "dinner"],
     "description": "Hearty soup with mixed vegetables in a light broth.",
     "servings": 2
   },
@@ -435,7 +435,7 @@
     "id": 55,
     "image": "/assets/polo-drink.png",
     "title": "Polo Drink",
-    "categories": ["drink"],
+    "categories": ["drink", "healthy"],
     "description": "Refreshing sweet lemon-mint drink.",
     "servings": 1
   },
@@ -483,7 +483,7 @@
     "id": 61,
     "image": "/assets/hot-dog.png",
     "title": "Hot Dog",
-    "categories": ["snak"],
+    "categories": ["snak", "dinner"],
     "description": "Sausage served in a bun with ketchup, mustard, or toppings.",
     "servings": 1
   },

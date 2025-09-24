@@ -40,7 +40,7 @@ function Recipes() {
           backgroundColor: "rgba(0,0,0,0.3)",
           }}></div>
 
-          <div style={{position: "relative", zIndex: 1}}>
+          <div className="hero-text" style={{position: "relative", zIndex: 1}}>
             <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>Discover Delicious Recipes</h1>
             <p style={{ fontSize: "1.2rem" }}>Find your next favourite meal, quick and easy.</p>
           </div>
