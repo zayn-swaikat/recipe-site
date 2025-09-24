@@ -254,5 +254,245 @@
     "categories": ["dinner", "snack"],
     "description": "Crispy fried bulgur shells stuffed with spiced minced meat and pine nuts.",
     "servings": 4
+  },
+  {
+    "id": 33,
+    "image": "/assets/arabic-coffee.png",
+    "title": "Arabic Coffee",
+    "categories": ["drink", "hot"],
+    "description": "Traditional Arabic coffee served in small cups, often spiced with cardamom.",
+    "servings": 1
+  },
+  {
+    "id": 34,
+    "image": "/assets/espresso.png",
+    "title": "Espresso",
+    "categories": ["drink"],
+    "description": "Strong Italian coffee served in a small cup.",
+    "servings": 1
+  },
+  {
+    "id": 35,
+    "image": "/assets/spicy-fish.png",
+    "title": "Samak Hurra (Spicy Fish)",
+    "categories": ["dinner", "seafood"],
+    "description": "Spicy grilled fish with local herbs and seasonings.",
+    "servings": 2
+  },
+  {
+    "id": 36,
+    "image": "/assets/fried-fish.png",
+    "title": "Fried Fish",
+    "categories": ["dinner", "seafood"],
+    "description": "Crispy fried fish served with lemon wedges.",
+    "servings": 2
+  },
+  {
+    "id": 37,
+    "image": "/assets/kabsa.png",
+    "title": "Kabsa Rice",
+    "categories": ["dinner"],
+    "description": "Aromatic spiced rice dish usually served with chicken or lamb.",
+    "servings": 4
+  },
+  {
+    "id": 38,
+    "image": "/assets/fruit-salad.png",
+    "title": "Fruit Salad",
+    "categories": ["dessert", "healthy"],
+    "description": "Fresh mixed fruits served chilled.",
+    "servings": 2
+  },
+  {
+    "id": 39,
+    "image": "/assets/mahshi.png",
+    "title": "Stuffed Vegetables (Mahshi)",
+    "categories": ["dinner", "healthy"],
+    "description": "Vegetables stuffed with rice, herbs, and spices.",
+    "servings": 3
+  },
+  {
+    "id": 40,
+    "image": "/assets/shaaibiyat.png",
+    "title": "Shaibiat",
+    "categories": ["dessert"],
+    "description": "Traditional Middle Eastern pastry soaked in syrup.",
+    "servings": 2
+  },
+  {
+    "id": 41,
+    "image": "/assets/baklava.png",
+    "title": "Baklava",
+    "categories": ["dessert"],
+    "description": "Layered pastry filled with nuts and sweet syrup.",
+    "servings": 2
+  },
+  {
+    "id": 42,
+    "image": "/assets/iced-coffee.png",
+    "title": "Iced Coffee",
+    "categories": ["drink"],
+    "description": "Chilled coffee served over ice, perfect for a hot day.",
+    "servings": 1
+  },
+  {
+    "id": 43,
+    "image": "/assets/iced-tea.png",
+    "title": "Iced Tea",
+    "categories": ["drink"],
+    "description": "Refreshing cold tea served with ice and lemon.",
+    "servings": 1
+  },
+  {
+    "id": 44,
+    "image": "/assets/mansaf.png",
+    "title": "Mansaf",
+    "categories": ["dinner"],
+    "description": "Traditional Jordanian dish of lamb cooked in yogurt sauce served over rice.",
+    "servings": 4
+  },
+  {
+    "id": 45,
+    "image": "/assets/milkshake.png",
+    "title": "Milkshake",
+    "categories": ["drink", "dessert"],
+    "description": "Creamy blended drink made with milk, ice cream, and flavoring.",
+    "servings": 1
+  },
+  {
+    "id": 46,
+    "image": "/assets/hot-chocolate.png",
+    "title": "Hot Chocolate",
+    "categories": ["drink", "dessert"],
+    "description": "Rich chocolate drink served warm.",
+    "servings": 1
+  },
+  {
+    "id": 47,
+    "image": "/assets/burritos.png",
+    "title": "Burritos",
+    "categories": ["dinner", "snak"],
+    "description": "Flour tortilla filled with meat, rice, beans, and veggies.",
+    "servings": 2
+  },
+  {
+    "id": 48,
+    "image": "/assets/shawarma.png",
+    "title": "Shawarma",
+    "categories": ["dinner", "snak"],
+    "description": "Middle Eastern wrap with sliced marinated meat, vegetables, and sauce.",
+    "servings": 2
+  },
+  {
+    "id": 49,
+    "image": "/assets/donuts.png",
+    "title": "Donuts",
+    "categories": ["dessert", "snak"],
+    "description": "Fried sweet dough with glaze or toppings.",
+    "servings": 2
+  },
+  {
+    "id": 50,
+    "image": "/assets/cheesecake.png",
+    "title": "Cheesecake",
+    "categories": ["dessert"],
+    "description": "Creamy dessert with a biscuit base and rich cheese filling.",
+    "servings": 2
+  },
+  {
+    "id": 51,
+    "image": "/assets/tiramisu.png",
+    "title": "Tiramisu",
+    "categories": ["dessert"],
+    "description": "Italian layered dessert with coffee-soaked ladyfingers and mascarpone cream.",
+    "servings": 2
+  },
+  {
+    "id": 52,
+    "image": "/assets/lazycake.png",
+    "title": "Lazy Cake",
+    "categories": ["dessert"],
+    "description": "Simpler version of cheesecake without baking, creamy and delicious.",
+    "servings": 2
+  },
+  {
+    "id": 53,
+    "image": "/assets/mushroom-soup.png",
+    "title": "Mushroom Soup",
+    "categories": ["soup"],
+    "description": "Creamy soup made with fresh mushrooms and herbs.",
+    "servings": 2
+  },
+  {
+    "id": 54,
+    "image": "/assets/vegetable-soup.png",
+    "title": "Vegetable Soup",
+    "categories": ["soup", "healthy"],
+    "description": "Hearty soup with mixed vegetables in a light broth.",
+    "servings": 2
+  },
+  {
+    "id": 55,
+    "image": "/assets/polo-drink.png",
+    "title": "Polo Drink",
+    "categories": ["drink"],
+    "description": "Refreshing sweet lemon-mint drink.",
+    "servings": 1
+  },
+  {
+    "id": 56,
+    "image": "/assets/cumin-lemon-drink.png",
+    "title": "Cumin and Lemon Drink",
+    "categories": ["drink", "healthy"],
+    "description": "Cooling beverage with cumin and lemon, great for digestion.",
+    "servings": 1
+  },
+  {
+    "id": 57,
+    "image": "/assets/mac-and-cheese.png",
+    "title": "Mac and Cheese",
+    "categories": ["dinner"],
+    "description": "Classic comfort food with pasta baked in cheesy sauce.",
+    "servings": 2
+  },
+  {
+    "id": 58,
+    "image": "/assets/muhallabia.png",
+    "title": "Muhallabia",
+    "categories": ["dessert"],
+    "description": "Creamy Middle Eastern milk pudding flavored with rose or orange blossom water.",
+    "servings": 2
+  },
+  {
+    "id": 59,
+    "image": "/assets/rice-pudding.png",
+    "title": "Rice Pudding",
+    "categories": ["dessert"],
+    "description": "Classic dessert made with rice, milk, and sugar.",
+    "servings": 2
+  },
+  {
+    "id": 60,
+    "image": "/assets/sahlab.png",
+    "title": "Sahlab",
+    "categories": ["drink", "dessert"],
+    "description": "Warm Middle Eastern dessert drink thickened with orchid flour and topped with nuts.",
+    "servings": 1
+  },
+  {
+    "id": 61,
+    "image": "/assets/hot-dog.png",
+    "title": "Hot Dog",
+    "categories": ["snak"],
+    "description": "Sausage served in a bun with ketchup, mustard, or toppings.",
+    "servings": 1
+  },
+  {
+    "id": 62,
+    "image": "/assets/croissant.png",
+    "title": "Croissant",
+    "categories": ["dessert", "breakfast"],
+    "description": "Flaky buttery French pastry, perfect for breakfast or snack.",
+    "servings": 1
   }
 ]
