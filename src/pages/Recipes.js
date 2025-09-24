@@ -30,24 +30,35 @@ function Recipes() {
   return (
     <div className="recipes-page">
       <div className="hero">
-        <h1>Discover Delicious Recipes</h1>
-        <p>Find your next favourite meal, quick and easy.</p>
-      </div>
 
-      <div className="filters">
-        <input
-          type="text"
-          placeholder="Search recipes..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
+        <div style={{
+          position:"absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          backgroundColor: "rgba(0,0,0,0.3)",
+          }}></div>
 
-        <div className="category-select">
-        <Select
-            options={options}
-            defaultValue={options[0]}
-            onChange={(selected) => setCategory(selected.value)}
-            styles={{
+          <div style={{position: "relative", zIndex: 1}}>
+            <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>Discover Delicious Recipes</h1>
+            <p style={{ fontSize: "1.2rem" }}>Find your next favourite meal, quick and easy.</p>
+          </div>
+
+          <div className="filters">
+            <input
+              type="text"
+              placeholder="Search recipes..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+            />
+
+            <div className="category-select">
+              <Select
+                options={options}
+                defaultValue={options[0]}
+                onChange={(selected) => setCategory(selected.value)}
+                styles={{
                 control: (base, state) => ({
                 ...base,
                 width: "10rem",
@@ -90,9 +101,9 @@ function Recipes() {
                 ...base,
                 color: "#aaa",
                 })
-            }}
+              }}
             />
-
+          </div>
         </div>
       </div>
 
