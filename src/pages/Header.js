@@ -33,9 +33,10 @@ function Header() {
         <img src="/assets/logo1.png" alt="Logo" />
         <h1>YummiFy</h1>
 
-        <button onClick={changeDarkMode}>
-        {mode === "light" ? "Dark Mode" : "Light Mode"}
-        </button>
+        <div onClick={changeDarkMode} className="darkmode-switch">
+          <div className="icon">{mode === "light" ? "☀️" : "🌙"}</div>
+        </div>
+
 
       </div>
       <nav>

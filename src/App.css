@@ -10,12 +10,12 @@
 }
 
 [data-darkmode='dark'] {
-  --background: #2B2B2B;
-  --background-secondary: #3A3A3A;
+  --background: #1e1e1e;
+  --background-secondary: #2a2a2a;
   --primary: #E07A5F;
-  --secondary: #c1b9b198;
-  --text: #F8F5F0;
-  --accent: #f03400;
+  --secondary: #a69f97;
+  --text: #F5f5f5;
+  --accent: #ff5a36;
 }
 
 .App {
@@ -274,4 +274,38 @@ nav a:hover {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   border-radius: 10px;
+}
+
+.darkmode-switch {
+  position: fixed;
+  top: 6rem;
+  right: 1rem;
+  width: 60px;
+  height: 30px;
+  background: var(--background);
+  border: 2px solid var(--primary);
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  transition: background 0.3s ease, border 0.3s ease;
+  z-index: 2000;
+  justify-content: space-between;
+}
+
+.darkmode-switch .icon {
+  font-size: 20px;
+  pointer-events: none;
+  color: var(--text);
+  transition: transform 0.4s ease, background 0.3s ease;
+}
+
+[data-darkmode='dark'] .darkmode-switch {
+  background: var(--background);
+  border: 2px solid var(--accent);
+}
+
+[data-darkmode='dark'] .darkmode-switch .icon {
+  transform: translateX(33px);
 }
