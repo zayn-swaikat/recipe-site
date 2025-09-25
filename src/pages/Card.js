@@ -14,7 +14,7 @@ function Card({image, title, categories, description, servings}) {
                 <p>{description}</p>
                 <div className="foot">
                     <p className="servings">Serves {servings} people</p>
-                    <button className="see-more">See more</button>
+                    <button className="see-more">View Recipe</button>
                 </div>
             </div>
         </div>

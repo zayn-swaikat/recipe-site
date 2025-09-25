@@ -1,11 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import Card from "./Card";
 import recipesData from "../data/recipes.json";
 import Select from "react-select";
 
 function Recipes() {
+  const location = useLocation()
+  const initialCategory = location.state?.category || "All"
+
   const [search, setSearch] = useState("")
-  const [category, setCategory] = useState("All")
+  const [category, setCategory] = useState(initialCategory)
 
   const options = [
     { value: "All", label: "All" },
@@ -19,6 +23,12 @@ function Recipes() {
     { value: "soup", label: "Soup"},
     { value: "snack", label: "Snack"}
   ]
+
+  useEffect(() => {
+    if (location.state?.category) {
+      setCategory(location.state.category)
+    }
+  }, [location.state])
 
   const filteredRecipes = recipesData.filter((recipe) => {
     const matchesSearch = recipe.title.toLowerCase().includes(search.toLowerCase())
@@ -37,12 +47,12 @@ function Recipes() {
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundColor: "rgba(0,0,0,0.3)",
+          backgroundColor: "rgba(0,0,0,0.5)",
           }}></div>
 
           <div className="hero-text" style={{position: "relative", zIndex: 1}}>
-            <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>Discover Delicious Recipes</h1>
-            <p style={{ fontSize: "1.2rem" }}>Find your next favourite meal, quick and easy.</p>
+            <h1 style={{ fontSize: "3.5rem", marginBottom: "1rem" }}>Discover Delicious Recipes</h1>
+            <p style={{ fontSize: "1.5rem" }}>Find your next favourite meal, quick and easy.</p>
           </div>
 
           <div className="filters">

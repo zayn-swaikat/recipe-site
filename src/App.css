@@ -279,7 +279,7 @@ nav a:hover {
   background-image: url('../public/assets/recipeshero.png');
   background-size: cover;
   background-position: center;
-  height: 700px;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -309,7 +309,7 @@ nav a:hover {
   gap: 1rem;
   margin: 2rem 0;
   text-align: left;
-  z-index: 2000;
+  z-index: 1;
 }
 
 .filters input, .filters select {
@@ -352,4 +352,101 @@ nav a:hover {
 
 [data-darkmode='dark'] .darkmode-switch .icon {
   transform: translateX(33px);
+}
+
+/* Hero Section */
+
+#homepage-hero {
+  background-image: url('../public/assets/home-hero.png');
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.cta-btn {
+  padding: 0.8rem 1.5rem;
+  background: #ff6600;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+  font-size: 1.15rem;
+}
+
+.cta-btn:hover {
+  background: #e65c00;
+}
+
+/* Categories Section */
+
+.categories-section {
+  background: var(--background-secondary);
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.categories-section h2 {
+  font-size: 2.5rem;
+  color: var(--secondary);
+  margin-bottom: 0.5rem;
+}
+
+.categories-subtitle {
+  font-size: 1.3rem;
+  color: var(--text);
+  margin-bottom: 4rem;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.category-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  height: 180px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: all 0.35s ease;
+  overflow: hidden;
+}
+
+.category-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.35);
+  z-index: 0;
+}
+
+.category-card span {
+  position: relative;
+  z-index: 1;
+}
+
+.category-card:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(224,122,95,0.4);
 }
