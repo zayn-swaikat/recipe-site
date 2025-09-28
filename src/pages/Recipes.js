@@ -7,7 +7,7 @@ import Select from "react-select";
 function Recipes() {
   const location = useLocation()
   const initialCategory = location.state?.category || "All"
-
+  
   const [search, setSearch] = useState("")
   const [category, setCategory] = useState(initialCategory)
 

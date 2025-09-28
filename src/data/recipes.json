@@ -2,7 +2,7 @@
   {
     "id": 1,
     "image": "/assets/icecream.png",
-    "title": "Vanilla Ice Cream",
+    "title": "Flavored Ice Cream",
     "categories": ["dessert"],
     "description": "Delicious homemade ice cream with natural flavors.",
     "servings": 2
