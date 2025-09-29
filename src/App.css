@@ -109,6 +109,10 @@ nav a:hover {
   background: var(--accent);
 }
 
+.hamburger {  /*Hides the hamburger menu on desktop*/
+  display: none;
+}
+
 .header-show {
   transform: translateY(0);
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -141,6 +145,35 @@ nav a:hover {
   align-items: center;
   gap: 1rem;
 }
+
+/*Matt's footer changes start here*/
+
+.footer-form {
+  padding: 1.5rem;
+  border: 0.1rem solid var(--text);
+  border-radius: 5%;
+}
+
+.form-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.form-row label {
+  width: 5rem;
+  color: var(--background);
+  text-align: right;
+}
+
+.form-row input,
+.form-row textarea {
+  flex: 1;
+  resize: none;
+}
+
+/*Matt's footer changes end here*/
 
 .footer-logo {
   width: 70px;
@@ -628,4 +661,58 @@ nav a:hover {
   font-size: 1rem;
   margin-bottom: 1rem;
   opacity: 0.9;
+}
+
+
+@media (max-width: 768px) {
+  header nav a,
+  header nav li,
+  .nav-links { 
+    display: none;
+    visibility: hidden;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;      
+    left: 92%;        
+    top: 50%;
+    padding: 0.3rem 0.7rem;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    width: 48px;
+    height: 48px;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1500;
+    touch-action: manipulation; 
+    /* Touch-action Manipulation is my real name*/
+  }
+
+  .mobile-nav-dropdown {
+    position: absolute;
+    top: var(--header-height);
+    right: 0;
+    background: var(--background);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    max-width: 300px;
+    z-index: 2000;
+  }
+  .mobile-nav-dropdown a {
+    padding: 1rem;
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    font-weight: bold;
+  }
+  .mobile-nav-dropdown a:last-child {
+    border-bottom: none;
+  }
 }
