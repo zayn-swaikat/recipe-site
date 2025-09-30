@@ -1,71 +1,23 @@
 [
   {
-    "id": 1,
-    "image": "/assets/icecream.png",
-    "title": "Flavored Ice Cream",
-    "categories": ["dessert"],
-    "description": "Delicious homemade ice cream with natural flavors.",
-    "servings": 2
-  },
-  {
-    "id": 2,
-    "image": "/assets/pizza.png",
-    "title": "Margherita Pizza",
-    "categories": ["dinner"],
-    "description": "Classic pizza topped with fresh mozzarella, basil, and tomatoes.",
-    "servings": 4
-  },
-  {
-    "id": 3,
-    "image": "/assets/salad.png",
-    "title": "Greek Salad",
-    "categories": ["healthy", "vegan"],
-    "description": "A refreshing salad with feta, cucumber, olives, and tomatoes.",
-    "servings": 3
-  },
-  {
-    "id": 4,
-    "image": "/assets/pasta.png",
-    "title": "Spaghetti Carbonara",
-    "categories": ["dinner"],
-    "description": "Traditional Roman pasta made with eggs, cheese, pancetta, and pepper.",
-    "servings": 2
-  },
-  {
     "id": 5,
-    "image": "/assets/burger.png",
+    "image": "/assets/burger.jpg",
     "title": "Beef Burger",
     "categories": ["dinner"],
     "description": "Grilled beef patty with melted cheese, lettuce, and tomato in a toasted bun.",
     "servings": 1
   },
   {
-    "id": 6,
-    "image": "/assets/cake.png",
-    "title": "Chocolate Cake",
-    "categories": ["dessert"],
-    "description": "Moist chocolate cake layered with creamy chocolate ganache.",
-    "servings": 6
-  },
-  {
     "id": 7,
-    "image": "/assets/soup.png",
+    "image": "/assets/soup.jpg",
     "title": "Tomato Basil Soup",
     "categories": ["soup", "healthy"],
     "description": "A creamy tomato soup simmered with fresh basil and served hot.",
     "servings": 2
   },
   {
-    "id": 8,
-    "image": "/assets/sushi.png",
-    "title": "Sushi Rolls",
-    "categories": ["seafood", "dinner"],
-    "description": "Delicate rolls filled with rice, nori, and fresh fish or veggies.",
-    "servings": 4
-  },
-  {
     "id": 9,
-    "image": "/assets/pancakes.png",
+    "image": "/assets/pancakes.jpg",
     "title": "Fluffy Pancakes",
     "categories": ["breakfast", "dessert"],
     "description": "Stack of golden pancakes topped with maple syrup and butter.",
@@ -73,7 +25,7 @@
   },
   {
     "id": 10,
-    "image": "/assets/smoothie.png",
+    "image": "/assets/smoothie.jpg",
     "title": "Berry Smoothie",
     "categories": ["drink", "healthy", "vegan"],
     "description": "Refreshing smoothie with mixed berries, banana, and almond milk.",
@@ -81,7 +33,7 @@
   },
   {
     "id": 11,
-    "image": "/assets/omelette.png",
+    "image": "/assets/omelette.jpg",
     "title": "Cheese Omelette",
     "categories": ["breakfast"],
     "description": "Fluffy omelette stuffed with melted cheese and fresh herbs.",
@@ -89,7 +41,7 @@
   },
   {
     "id": 12,
-    "image": "/assets/tacos.png",
+    "image": "/assets/tacos.jpg",
     "title": "Chicken Tacos",
     "categories": ["dinner"],
     "description": "Soft tortillas filled with grilled chicken, salsa, and guacamole.",
@@ -97,7 +49,7 @@
   },
   {
     "id": 13,
-    "image": "/assets/granola.png",
+    "image": "/assets/granola.jpg",
     "title": "Yogurt Parfait",
     "categories": ["breakfast", "healthy"],
     "description": "Layers of creamy yogurt, crunchy granola, and fresh fruits.",
@@ -105,39 +57,15 @@
   },
   {
     "id": 14,
-    "image": "/assets/steak.png",
+    "image": "/assets/steak.jpg",
     "title": "Grilled Steak",
     "categories": ["dinner"],
     "description": "Juicy beef steak grilled to perfection with herbs and garlic butter.",
     "servings": 2
   },
   {
-    "id": 15,
-    "image": "/assets/falafel.png",
-    "title": "Falafel Wrap",
-    "categories": ["vegan", "healthy"],
-    "description": "Crispy falafel balls wrapped in pita bread with tahini sauce.",
-    "servings": 2
-  },
-  {
-    "id": 16,
-    "image": "/assets/coffee.png",
-    "title": "Cappuccino",
-    "categories": ["drink", "breakfast"],
-    "description": "Classic Italian coffee with steamed milk and frothy foam.",
-    "servings": 1
-  },
-  {
-    "id": 17,
-    "image": "/assets/fries.png",
-    "title": "French Fries",
-    "categories": ["snack", "dinner"],
-    "description": "Crispy golden potato fries, lightly salted and served hot.",
-    "servings": 2
-  },
-  {
     "id": 18,
-    "image": "/assets/shrimp.png",
+    "image": "/assets/shrimp.jpg",
     "title": "Garlic Butter Shrimp",
     "categories": ["seafood", "dinner"],
     "description": "Shrimps sautéed in garlic butter sauce with a squeeze of lemon.",
@@ -145,7 +73,7 @@
   },
   {
     "id": 19,
-    "image": "/assets/ramen.png",
+    "image": "/assets/ramen.jpg",
     "title": "Ramen Noodle Soup",
     "categories": ["soup", "dinner"],
     "description": "Japanese-style noodle soup with broth, vegetables, and soft-boiled egg.",
@@ -153,7 +81,7 @@
   },
   {
     "id": 20,
-    "image": "/assets/brownies.png",
+    "image": "/assets/brownies.jpg",
     "title": "Fudgy Brownies",
     "categories": ["dessert"],
     "description": "Rich chocolate brownies with a gooey center and crispy top.",
@@ -161,31 +89,15 @@
   },
   {
     "id": 21,
-    "image": "/assets/fattoush.png",
+    "image": "/assets/fattoush.jpg",
     "title": "Fattoush",
     "categories": ["healthy", "vegan", "dinner"],
     "description": "Fresh Lebanese salad with toasted pita, tomatoes, cucumbers, and sumac.",
     "servings": 3
   },
   {
-    "id": 22,
-    "image": "/assets/hummus.png",
-    "title": "Hummus",
-    "categories": ["vegan", "healthy", "snack"],
-    "description": "Creamy chickpea dip blended with tahini, lemon, and garlic.",
-    "servings": 4
-  },
-  {
-    "id": 23,
-    "image": "/assets/kebab.png",
-    "title": "Shish Kebab",
-    "categories": ["dinner"],
-    "description": "Grilled marinated meat skewers served with vegetables and rice.",
-    "servings": 2
-  },
-  {
     "id": 24,
-    "image": "/assets/manaeesh.png",
+    "image": "/assets/manaeesh.jpg",
     "title": "Manakeesh Zaatar",
     "categories": ["breakfast", "vegan"],
     "description": "Levantine flatbread topped with zaatar and olive oil, baked to perfection.",
@@ -193,7 +105,7 @@
   },
   {
     "id": 25,
-    "image": "/assets/halawet-jibn.png",
+    "image": "/assets/halawet-jibn.jpg",
     "title": "Halawet El Jibn",
     "categories": ["dessert"],
     "description": "Sweet cheese rolls soaked in sugar syrup, a traditional Middle Eastern treat.",
@@ -201,7 +113,7 @@
   },
   {
     "id": 26,
-    "image": "/assets/maqlouba.png",
+    "image": "/assets/maqlouba.jpg",
     "title": "Maqlouba",
     "categories": ["healthy", "dinner"],
     "description": "Upside-down rice dish layered with fried vegetables and meat, classic Levantine comfort food.",
@@ -209,7 +121,7 @@
   },
   {
     "id": 27,
-    "image": "/assets/laban.png",
+    "image": "/assets/laban.jpg",
     "title": "Laban Ayran",
     "categories": ["drink", "healthy", "breakfast"],
     "description": "Refreshing yogurt-based drink with a hint of salt.",
@@ -217,23 +129,15 @@
   },
   {
     "id": 28,
-    "image": "/assets/knafeh.png",
+    "image": "/assets/knafeh.jpg",
     "title": "Knafeh",
     "categories": ["dessert"],
     "description": "Sweet cheese pastry soaked in sugar syrup, a popular Middle Eastern treat.",
     "servings": 4
   },
   {
-    "id": 29,
-    "image": "/assets/shorbat-adas.png",
-    "title": "Lentil Soup",
-    "categories": ["soup", "healthy", "vegan"],
-    "description": "Warm and hearty lentil soup flavored with cumin and lemon.",
-    "servings": 3
-  },
-  {
     "id": 30,
-    "image": "/assets/warak-enab.png",
+    "image": "/assets/warak-enab.jpg",
     "title": "Warak Enab",
     "categories": ["vegan", "healthy", "snack"],
     "description": "Stuffed grape leaves with rice, herbs, and spices, served cold or warm.",
@@ -249,7 +153,7 @@
   },
   {
     "id": 32,
-    "image": "/assets/kibbeh.png",
+    "image": "/assets/kibbeh.jpg",
     "title": "Fried Kibbeh",
     "categories": ["dinner", "snack"],
     "description": "Crispy fried bulgur shells stuffed with spiced minced meat and pine nuts.",
@@ -257,7 +161,7 @@
   },
   {
     "id": 33,
-    "image": "/assets/arabic-coffee.png",
+    "image": "/assets/arabic-coffee.jpg",
     "title": "Arabic Coffee",
     "categories": ["drink"],
     "description": "Traditional Arabic coffee served in small cups, often spiced with cardamom.",
@@ -265,7 +169,7 @@
   },
   {
     "id": 34,
-    "image": "/assets/espresso.png",
+    "image": "/assets/espresso.jpg",
     "title": "Espresso",
     "categories": ["drink"],
     "description": "Strong Italian coffee served in a small cup.",
@@ -273,7 +177,7 @@
   },
   {
     "id": 35,
-    "image": "/assets/spicy-fish.png",
+    "image": "/assets/spicy-fish.jpg",
     "title": "Spicy Fish",
     "categories": ["dinner", "seafood"],
     "description": "Spicy grilled fish with local herbs and seasonings.",
@@ -281,23 +185,15 @@
   },
   {
     "id": 36,
-    "image": "/assets/fried-fish.png",
+    "image": "/assets/fried-fish.jpg",
     "title": "Fried Fish",
     "categories": ["dinner", "seafood"],
     "description": "Crispy fried fish served with lemon wedges.",
     "servings": 2
   },
   {
-    "id": 37,
-    "image": "/assets/kabsa.png",
-    "title": "Kabsa Rice",
-    "categories": ["dinner"],
-    "description": "Aromatic spiced rice dish usually served with chicken or lamb.",
-    "servings": 4
-  },
-  {
     "id": 38,
-    "image": "/assets/fruit-salad.png",
+    "image": "/assets/fruit-salad.jpg",
     "title": "Fruit Salad",
     "categories": ["dessert", "healthy"],
     "description": "Fresh mixed fruits served chilled.",
@@ -305,7 +201,7 @@
   },
   {
     "id": 39,
-    "image": "/assets/mahshi.png",
+    "image": "/assets/mahshi.jpg",
     "title": "Stuffed Vegetables (Mahshi)",
     "categories": ["dinner", "healthy"],
     "description": "Vegetables stuffed with rice, herbs, and spices.",
@@ -313,7 +209,7 @@
   },
   {
     "id": 40,
-    "image": "/assets/shaaibiyat.png",
+    "image": "/assets/shaaibiyat.jpg",
     "title": "Shaibiat",
     "categories": ["dessert"],
     "description": "Traditional Middle Eastern pastry soaked in syrup.",
@@ -321,7 +217,7 @@
   },
   {
     "id": 41,
-    "image": "/assets/baklava.png",
+    "image": "/assets/baklava.jpg",
     "title": "Baklava",
     "categories": ["dessert"],
     "description": "Layered pastry filled with nuts and sweet syrup.",
@@ -329,7 +225,7 @@
   },
   {
     "id": 42,
-    "image": "/assets/iced-coffee.png",
+    "image": "/assets/iced-coffee.jpg",
     "title": "Iced Coffee",
     "categories": ["drink"],
     "description": "Chilled coffee served over ice, perfect for a hot day.",
@@ -337,23 +233,15 @@
   },
   {
     "id": 43,
-    "image": "/assets/iced-tea.png",
+    "image": "/assets/iced-tea.jpg",
     "title": "Iced Tea",
     "categories": ["drink"],
     "description": "Refreshing cold tea served with ice and lemon.",
     "servings": 1
   },
   {
-    "id": 44,
-    "image": "/assets/mansaf.png",
-    "title": "Mansaf",
-    "categories": ["dinner"],
-    "description": "Traditional Jordanian dish of lamb cooked in yogurt sauce served over rice.",
-    "servings": 4
-  },
-  {
     "id": 45,
-    "image": "/assets/milkshake.png",
+    "image": "/assets/milkshake.jpg",
     "title": "Milkshake",
     "categories": ["drink", "dessert"],
     "description": "Creamy blended drink made with milk, ice cream, and flavoring.",
@@ -361,7 +249,7 @@
   },
   {
     "id": 46,
-    "image": "/assets/hot-chocolate.png",
+    "image": "/assets/hot-chocolate.jpg",
     "title": "Hot Chocolate",
     "categories": ["drink", "dessert"],
     "description": "Rich chocolate drink served warm.",
@@ -369,7 +257,7 @@
   },
   {
     "id": 47,
-    "image": "/assets/burritos.png",
+    "image": "/assets/burritos.jpg",
     "title": "Burritos",
     "categories": ["dinner", "snak"],
     "description": "Flour tortilla filled with meat, rice, beans, and veggies.",
@@ -377,7 +265,7 @@
   },
   {
     "id": 48,
-    "image": "/assets/shawarma.png",
+    "image": "/assets/shawarma.jpg",
     "title": "Shawarma",
     "categories": ["dinner", "snak"],
     "description": "Middle Eastern wrap with sliced marinated meat, vegetables, and sauce.",
@@ -385,7 +273,7 @@
   },
   {
     "id": 49,
-    "image": "/assets/donuts.png",
+    "image": "/assets/donuts.jpg",
     "title": "Donuts",
     "categories": ["dessert", "snak"],
     "description": "Fried sweet dough with glaze or toppings.",
@@ -393,7 +281,7 @@
   },
   {
     "id": 50,
-    "image": "/assets/cheesecake.png",
+    "image": "/assets/cheesecake.jpg",
     "title": "Cheesecake",
     "categories": ["dessert"],
     "description": "Creamy dessert with a biscuit base and rich cheese filling.",
@@ -401,31 +289,15 @@
   },
   {
     "id": 51,
-    "image": "/assets/tiramisu.png",
+    "image": "/assets/tiramisu.jpg",
     "title": "Tiramisu",
     "categories": ["dessert"],
     "description": "Italian layered dessert with coffee-soaked ladyfingers and mascarpone cream.",
     "servings": 2
   },
   {
-    "id": 52,
-    "image": "/assets/lazycake.png",
-    "title": "Lazy Cake",
-    "categories": ["dessert"],
-    "description": "Simpler version of cheesecake without baking, creamy and delicious.",
-    "servings": 2
-  },
-  {
-    "id": 53,
-    "image": "/assets/mushroom-soup.png",
-    "title": "Mushroom Soup",
-    "categories": ["soup", "healthy", "dinner"],
-    "description": "Creamy soup made with fresh mushrooms and herbs.",
-    "servings": 2
-  },
-  {
     "id": 54,
-    "image": "/assets/vegetable-soup.png",
+    "image": "/assets/vegetable-soup.jpg",
     "title": "Vegetable Soup",
     "categories": ["soup", "healthy", "dinner"],
     "description": "Hearty soup with mixed vegetables in a light broth.",
@@ -433,23 +305,15 @@
   },
   {
     "id": 55,
-    "image": "/assets/polo-drink.png",
+    "image": "/assets/polo-drink.jpg",
     "title": "Polo Drink",
     "categories": ["drink", "healthy"],
     "description": "Refreshing sweet lemon-mint drink.",
     "servings": 1
   },
   {
-    "id": 56,
-    "image": "/assets/cumin-lemon-drink.png",
-    "title": "Cumin and Lemon Drink",
-    "categories": ["drink", "healthy"],
-    "description": "Cooling beverage with cumin and lemon, great for digestion.",
-    "servings": 1
-  },
-  {
     "id": 57,
-    "image": "/assets/mac-and-cheese.png",
+    "image": "/assets/mac-and-cheese.jpg",
     "title": "Mac and Cheese",
     "categories": ["dinner"],
     "description": "Classic comfort food with pasta baked in cheesy sauce.",
@@ -457,7 +321,7 @@
   },
   {
     "id": 58,
-    "image": "/assets/muhallabia.png",
+    "image": "/assets/muhallabia.jpg",
     "title": "Muhallabia",
     "categories": ["dessert"],
     "description": "Creamy Middle Eastern milk pudding flavored with rose or orange blossom water.",
@@ -465,7 +329,7 @@
   },
   {
     "id": 59,
-    "image": "/assets/rice-pudding.png",
+    "image": "/assets/rice-pudding.jpg",
     "title": "Rice Pudding",
     "categories": ["dessert"],
     "description": "Classic dessert made with rice, milk, and sugar.",
@@ -473,7 +337,7 @@
   },
   {
     "id": 60,
-    "image": "/assets/sahlab.png",
+    "image": "/assets/sahlab.jpg",
     "title": "Sahlab",
     "categories": ["drink", "dessert"],
     "description": "Warm Middle Eastern dessert drink thickened with orchid flour and topped with nuts.",
@@ -481,7 +345,7 @@
   },
   {
     "id": 61,
-    "image": "/assets/hot-dog.png",
+    "image": "/assets/hot-dog.jpg",
     "title": "Hot Dog",
     "categories": ["snak", "dinner"],
     "description": "Sausage served in a bun with ketchup, mustard, or toppings.",
@@ -489,7 +353,7 @@
   },
   {
     "id": 62,
-    "image": "/assets/croissant.png",
+    "image": "/assets/croissant.jpg",
     "title": "Croissant",
     "categories": ["dessert", "breakfast"],
     "description": "Flaky buttery French pastry, perfect for breakfast or snack.",

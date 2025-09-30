@@ -40,28 +40,28 @@ function Home() {
                     Find the perfect recipe for every moment
                 </p>
                 <div className="categories-grid">
-                    <Link to="/recipes" state={{ category: "breakfast" }} className="category-card" style={{backgroundImage: "url('assets/breakfast.png')"}}>
+                    <Link to="/recipes" state={{ category: "breakfast" }} className="category-card" style={{backgroundImage: "url('assets/breakfast.jpg')"}}>
                         <span>Breakfast</span>
                     </Link>
-                    <Link to="/recipes" state={{ category: "dinner" }} className="category-card" style={{backgroundImage: "url('assets/dinner.png')"}}>
+                    <Link to="/recipes" state={{ category: "dinner" }} className="category-card" style={{backgroundImage: "url('assets/dinner.jpg')"}}>
                         <span>Dinner</span>
                     </Link>
-                    <Link to="/recipes" state={{ category: "dessert" }} className="category-card" style={{backgroundImage: "url('assets/dessert.png')"}}>
+                    <Link to="/recipes" state={{ category: "dessert" }} className="category-card" style={{backgroundImage: "url('assets/dessert.jpg')"}}>
                         <span>Dessert</span>
                     </Link>
-                    <Link to="/recipes" state={{ category: "drink" }} className="category-card" style={{backgroundImage: "url('assets/drink.png')"}}>
+                    <Link to="/recipes" state={{ category: "drink" }} className="category-card" style={{backgroundImage: "url('assets/drink.jpg')"}}>
                         <span>Drinks</span>
                     </Link>
-                    <Link to="/recipes" state={{ category: "vegan" }} className="category-card" style={{backgroundImage: "url('assets/vegan.png')"}}>
+                    <Link to="/recipes" state={{ category: "vegan" }} className="category-card" style={{backgroundImage: "url('assets/vegan.jpg')"}}>
                         <span>Vegan</span>
                     </Link>
-                    <Link to="/recipes" state={{ category: "seafood" }} className="category-card" style={{backgroundImage: "url('assets/seafood.png')"}}>
+                    <Link to="/recipes" state={{ category: "seafood" }} className="category-card" style={{backgroundImage: "url('assets/seafood.jpg')"}}>
                         <span>Seafood</span>
                     </Link>
-                    <Link to="/recipes" state={{ category: "snack" }} className="category-card" style={{backgroundImage: "url('assets/snack.png')"}}>
+                    <Link to="/recipes" state={{ category: "snack" }} className="category-card" style={{backgroundImage: "url('assets/snack.jpg')"}}>
                         <span>Snacks</span>
                     </Link>
-                    <Link to="/recipes" state={{ category: "soup" }} className="category-card" style={{backgroundImage: "url('assets/soups.png')"}}>
+                    <Link to="/recipes" state={{ category: "soup" }} className="category-card" style={{backgroundImage: "url('assets/soups.jpg')"}}>
                         <span>Soup</span>
                     </Link>
                 </div>
