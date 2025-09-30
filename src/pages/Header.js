@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useTheme } from "../ThemeContext";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Header() {
-  const { mode, changeDarkMode } = useTheme(); //this is the dark mode
-  const [open, setOpen] = useState(false); //this is for the hamburger menu
-  const [scrollDir, setScrollDir] = useState(null); //this is the header scroll
+  const { mode, changeDarkMode } = useTheme();
+  const [open, setOpen] = useState(false);
+  const [scrollDir, setScrollDir] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
@@ -24,6 +25,14 @@ function Header() {
     };
   }, []);
 
+  // homepage
+  const handleHomeClick = (e) => {
+    e.preventDefault();
+    navigate('/');
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    setOpen(false);
+  };
+
   return (
     <header className={scrollDir === 'down' ? 'header-hide' : 'header-show'}>
       <div className="logo-title">
@@ -36,9 +45,9 @@ function Header() {
 
       {/* Desktop nav */}
       <nav>
-        <Link to="/">Home</Link>
+        <Link to="/" onClick={handleHomeClick}>Home</Link>
         <Link to="/recipes">Recipes</Link>
-        <Link to="/contact">Contact</Link>
+        <a href="#footer">Contact</a>
       </nav>
 
       {/* hamburger menu */}
@@ -55,9 +64,9 @@ function Header() {
       {/* Mobile nav */}
       {open && (
         <div className="mobile-nav-dropdown">
-          <Link to="/" onClick={() => setOpen(false)}>Home</Link>
+          <Link to="/" onClick={handleHomeClick}>Home</Link>
           <Link to="/recipes" onClick={() => setOpen(false)}>Recipes</Link>
-          <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
+          <a href="#footer" onClick={() => setOpen(false)}>Contact</a>
         </div>
       )}
     </header>
