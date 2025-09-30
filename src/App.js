@@ -9,7 +9,7 @@ import { ThemeProvider } from "./ThemeContext";
 function App() {
   return (
     <Router>
-      <ThemeProvider> {/* <== This is the darkmode, so it has to wrap everything*/}
+      <ThemeProvider>
       <Header />
       <main className="main-content">
         <Routes>

@@ -43,11 +43,13 @@ function Header() {
 
       {/* hamburger menu */}
       <button
-        className="hamburger"
+        className={`hamburger ${open ? "active" : ""}`}
         onClick={() => setOpen(!open)}
-        aria-label="Open navigation menu"
+        aria-label="Toggle navigation menu"
       >
-        ☰
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
 
       {/* Mobile nav */}

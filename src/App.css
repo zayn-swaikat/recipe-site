@@ -752,23 +752,49 @@ nav a:hover {
   }
 
   .hamburger {
-    display: block;
-    position: absolute;      
-    left: 92%;        
+    position: absolute;
     top: 50%;
-    padding: 0.3rem 0.7rem;
+    left: 92%;
     transform: translate(-50%, -50%);
-    margin: 0; 
     width: 48px;
     height: 48px;
-    font-size: 1.4rem;
-    border-radius: 8px;
+    border: none;
+    background: var(--background);
+    border-radius: 12px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     z-index: 1500;
-    touch-action: manipulation; 
-    /* Touch-action Manipulation is my real name*/
+    transition: background 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+
+  .hamburger:hover {
+    background-color: var(--accent);
+  }
+
+  .hamburger span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background: var(--text);
+    border-radius: 2px;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
   }
 
   .mobile-nav-dropdown {
@@ -783,7 +809,9 @@ nav a:hover {
     width: 60vw;
     max-width: 300px;
     z-index: 2000;
+    border-bottom-left-radius: 1rem;
   }
+
   .mobile-nav-dropdown a {
     padding: 1rem;
     color: var(--text);
@@ -791,6 +819,7 @@ nav a:hover {
     border-bottom: 1px solid var(--accent);
     font-weight: bold;
   }
+  
   .mobile-nav-dropdown a:last-child {
     border-bottom: none;
   }
