@@ -823,4 +823,14 @@ nav a:hover {
   .mobile-nav-dropdown a:last-child {
     border-bottom: none;
   }
+
+  .featured-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .categories-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
