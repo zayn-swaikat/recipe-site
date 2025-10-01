@@ -1,6 +1,6 @@
 [
   {
-    "id": 5,
+    "id": 1,
     "image": "/assets/burger.jpg",
     "title": "Beef Burger",
     "categories": ["dinner"],
@@ -8,15 +8,7 @@
     "servings": 1
   },
   {
-    "id": 7,
-    "image": "/assets/soup.jpg",
-    "title": "Tomato Basil Soup",
-    "categories": ["soup", "healthy"],
-    "description": "A creamy tomato soup simmered with fresh basil and served hot.",
-    "servings": 2
-  },
-  {
-    "id": 9,
+    "id": 2,
     "image": "/assets/pancakes.jpg",
     "title": "Fluffy Pancakes",
     "categories": ["breakfast", "dessert"],
@@ -24,7 +16,7 @@
     "servings": 3
   },
   {
-    "id": 10,
+    "id": 3,
     "image": "/assets/smoothie.jpg",
     "title": "Berry Smoothie",
     "categories": ["drink", "healthy", "vegan"],
@@ -32,7 +24,7 @@
     "servings": 1
   },
   {
-    "id": 11,
+    "id": 4,
     "image": "/assets/omelette.jpg",
     "title": "Cheese Omelette",
     "categories": ["breakfast"],
@@ -40,7 +32,7 @@
     "servings": 1
   },
   {
-    "id": 12,
+    "id": 5,
     "image": "/assets/tacos.jpg",
     "title": "Chicken Tacos",
     "categories": ["dinner"],
@@ -48,7 +40,7 @@
     "servings": 3
   },
   {
-    "id": 13,
+    "id": 6,
     "image": "/assets/granola.jpg",
     "title": "Yogurt Parfait",
     "categories": ["breakfast", "healthy"],
@@ -56,7 +48,7 @@
     "servings": 2
   },
   {
-    "id": 14,
+    "id": 7,
     "image": "/assets/steak.jpg",
     "title": "Grilled Steak",
     "categories": ["dinner"],
@@ -64,7 +56,7 @@
     "servings": 2
   },
   {
-    "id": 18,
+    "id": 8,
     "image": "/assets/shrimp.jpg",
     "title": "Garlic Butter Shrimp",
     "categories": ["seafood", "dinner"],
@@ -72,7 +64,7 @@
     "servings": 2
   },
   {
-    "id": 19,
+    "id": 9,
     "image": "/assets/ramen.jpg",
     "title": "Ramen Noodle Soup",
     "categories": ["soup", "dinner"],
@@ -80,7 +72,7 @@
     "servings": 2
   },
   {
-    "id": 20,
+    "id": 10,
     "image": "/assets/brownies.jpg",
     "title": "Fudgy Brownies",
     "categories": ["dessert"],
@@ -88,7 +80,7 @@
     "servings": 6
   },
   {
-    "id": 21,
+    "id": 11,
     "image": "/assets/fattoush.jpg",
     "title": "Fattoush",
     "categories": ["healthy", "vegan", "dinner"],
@@ -96,7 +88,7 @@
     "servings": 3
   },
   {
-    "id": 24,
+    "id": 12,
     "image": "/assets/manaeesh.jpg",
     "title": "Manakeesh Zaatar",
     "categories": ["breakfast", "vegan"],
@@ -104,7 +96,7 @@
     "servings": 2
   },
   {
-    "id": 25,
+    "id": 13,
     "image": "/assets/halawet-jibn.jpg",
     "title": "Halawet El Jibn",
     "categories": ["dessert"],
@@ -112,7 +104,7 @@
     "servings": 4
   },
   {
-    "id": 26,
+    "id": 14,
     "image": "/assets/maqlouba.jpg",
     "title": "Maqlouba",
     "categories": ["healthy", "dinner"],
@@ -120,7 +112,7 @@
     "servings": 3
   },
   {
-    "id": 27,
+    "id": 15,
     "image": "/assets/laban.jpg",
     "title": "Laban Ayran",
     "categories": ["drink", "healthy", "breakfast"],
@@ -128,7 +120,7 @@
     "servings": 1
   },
   {
-    "id": 28,
+    "id": 16,
     "image": "/assets/knafeh.jpg",
     "title": "Knafeh",
     "categories": ["dessert"],
@@ -136,7 +128,7 @@
     "servings": 4
   },
   {
-    "id": 30,
+    "id": 17,
     "image": "/assets/warak-enab.jpg",
     "title": "Warak Enab",
     "categories": ["vegan", "healthy", "snack"],
@@ -144,7 +136,7 @@
     "servings": 3
   },
   {
-    "id": 31,
+    "id": 18,
     "image": "/assets/molokhia.jpg",
     "title": "Molokhia",
     "categories": ["dinner", "healthy"],
@@ -152,7 +144,7 @@
     "servings": 3
   },
   {
-    "id": 32,
+    "id": 19,
     "image": "/assets/kibbeh.jpg",
     "title": "Fried Kibbeh",
     "categories": ["dinner", "snack"],
@@ -160,7 +152,7 @@
     "servings": 4
   },
   {
-    "id": 33,
+    "id": 20,
     "image": "/assets/arabic-coffee.jpg",
     "title": "Arabic Coffee",
     "categories": ["drink"],
@@ -168,7 +160,7 @@
     "servings": 1
   },
   {
-    "id": 34,
+    "id": 21,
     "image": "/assets/espresso.jpg",
     "title": "Espresso",
     "categories": ["drink"],
@@ -176,7 +168,7 @@
     "servings": 1
   },
   {
-    "id": 35,
+    "id": 22,
     "image": "/assets/spicy-fish.jpg",
     "title": "Spicy Fish",
     "categories": ["dinner", "seafood"],
@@ -184,7 +176,7 @@
     "servings": 2
   },
   {
-    "id": 36,
+    "id": 23,
     "image": "/assets/fried-fish.jpg",
     "title": "Fried Fish",
     "categories": ["dinner", "seafood"],
@@ -192,7 +184,7 @@
     "servings": 2
   },
   {
-    "id": 38,
+    "id": 24,
     "image": "/assets/fruit-salad.jpg",
     "title": "Fruit Salad",
     "categories": ["dessert", "healthy"],
@@ -200,7 +192,7 @@
     "servings": 2
   },
   {
-    "id": 39,
+    "id": 25,
     "image": "/assets/mahshi.jpg",
     "title": "Stuffed Vegetables (Mahshi)",
     "categories": ["dinner", "healthy"],
@@ -208,7 +200,7 @@
     "servings": 3
   },
   {
-    "id": 40,
+    "id": 26,
     "image": "/assets/shaaibiyat.jpg",
     "title": "Shaibiat",
     "categories": ["dessert"],
@@ -216,7 +208,7 @@
     "servings": 2
   },
   {
-    "id": 41,
+    "id": 27,
     "image": "/assets/baklava.jpg",
     "title": "Baklava",
     "categories": ["dessert"],
@@ -224,7 +216,7 @@
     "servings": 2
   },
   {
-    "id": 42,
+    "id": 28,
     "image": "/assets/iced-coffee.jpg",
     "title": "Iced Coffee",
     "categories": ["drink"],
@@ -232,7 +224,7 @@
     "servings": 1
   },
   {
-    "id": 43,
+    "id": 29,
     "image": "/assets/iced-tea.jpg",
     "title": "Iced Tea",
     "categories": ["drink"],
@@ -240,7 +232,7 @@
     "servings": 1
   },
   {
-    "id": 45,
+    "id": 30,
     "image": "/assets/milkshake.jpg",
     "title": "Milkshake",
     "categories": ["drink", "dessert"],
@@ -248,7 +240,7 @@
     "servings": 1
   },
   {
-    "id": 46,
+    "id": 31,
     "image": "/assets/hot-chocolate.jpg",
     "title": "Hot Chocolate",
     "categories": ["drink", "dessert"],
@@ -256,7 +248,7 @@
     "servings": 1
   },
   {
-    "id": 47,
+    "id": 32,
     "image": "/assets/burritos.jpg",
     "title": "Burritos",
     "categories": ["dinner", "snak"],
@@ -264,7 +256,7 @@
     "servings": 2
   },
   {
-    "id": 48,
+    "id": 33,
     "image": "/assets/shawarma.jpg",
     "title": "Shawarma",
     "categories": ["dinner", "snak"],
@@ -272,7 +264,7 @@
     "servings": 2
   },
   {
-    "id": 49,
+    "id": 34,
     "image": "/assets/donuts.jpg",
     "title": "Donuts",
     "categories": ["dessert", "snak"],
@@ -280,7 +272,7 @@
     "servings": 2
   },
   {
-    "id": 50,
+    "id": 35,
     "image": "/assets/cheesecake.jpg",
     "title": "Cheesecake",
     "categories": ["dessert"],
@@ -288,7 +280,7 @@
     "servings": 2
   },
   {
-    "id": 51,
+    "id": 36,
     "image": "/assets/tiramisu.jpg",
     "title": "Tiramisu",
     "categories": ["dessert"],
@@ -296,7 +288,7 @@
     "servings": 2
   },
   {
-    "id": 54,
+    "id": 37,
     "image": "/assets/vegetable-soup.jpg",
     "title": "Vegetable Soup",
     "categories": ["soup", "healthy", "dinner"],
@@ -304,7 +296,7 @@
     "servings": 2
   },
   {
-    "id": 55,
+    "id": 38,
     "image": "/assets/polo-drink.jpg",
     "title": "Polo Drink",
     "categories": ["drink", "healthy"],
@@ -312,7 +304,7 @@
     "servings": 1
   },
   {
-    "id": 57,
+    "id": 39,
     "image": "/assets/mac-and-cheese.jpg",
     "title": "Mac and Cheese",
     "categories": ["dinner"],
@@ -320,7 +312,7 @@
     "servings": 2
   },
   {
-    "id": 58,
+    "id": 40,
     "image": "/assets/muhallabia.jpg",
     "title": "Muhallabia",
     "categories": ["dessert"],
@@ -328,7 +320,7 @@
     "servings": 2
   },
   {
-    "id": 59,
+    "id": 41,
     "image": "/assets/rice-pudding.jpg",
     "title": "Rice Pudding",
     "categories": ["dessert"],
@@ -336,7 +328,7 @@
     "servings": 2
   },
   {
-    "id": 60,
+    "id": 42,
     "image": "/assets/sahlab.jpg",
     "title": "Sahlab",
     "categories": ["drink", "dessert"],
@@ -344,7 +336,7 @@
     "servings": 1
   },
   {
-    "id": 61,
+    "id": 43,
     "image": "/assets/hot-dog.jpg",
     "title": "Hot Dog",
     "categories": ["snak", "dinner"],
@@ -352,7 +344,7 @@
     "servings": 1
   },
   {
-    "id": 62,
+    "id": 44,
     "image": "/assets/croissant.jpg",
     "title": "Croissant",
     "categories": ["dessert", "breakfast"],
