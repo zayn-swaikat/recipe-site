@@ -38,7 +38,7 @@ function Recipes() {
   })
 
   return (
-    <div className="recipes-page">
+    <div className="recipes-page" id="recipes-page">
       <div className="hero">
 
         <div style={{
