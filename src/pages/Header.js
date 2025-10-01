@@ -25,6 +25,29 @@ function Header() {
     };
   }, []);
 
+  //close hamburger menu if someone clicks outside it
+  useEffect(() => {
+  if (!open) return;
+
+  const handleClickOutside = (event) => {
+    const dropdown = document.querySelector('.mobile-nav-dropdown');
+    const hamburger = document.querySelector('.hamburger');
+    if (
+      dropdown &&
+      !dropdown.contains(event.target) &&
+      hamburger &&
+      !hamburger.contains(event.target)
+    ) {
+      setOpen(false);
+    }
+  };
+
+  document.addEventListener('mousedown', handleClickOutside);
+  return () => {
+    document.removeEventListener('mousedown', handleClickOutside);
+  };
+}, [open]);
+
   // homepage
   const handleHomeClick = (e) => {
     e.preventDefault();
@@ -39,7 +62,7 @@ function Header() {
         <img src="/assets/logo1.png" alt="Logo" />
         <h1>YummiFy</h1>
         <div onClick={changeDarkMode} className="darkmode-switch">
-          <div className="icon">{mode === "light" ? "☀️" : "🌙"}</div>
+          <div className="icon">{mode === "light" ? "🔆" : "🌙"}</div>
         </div>
       </div>
 
