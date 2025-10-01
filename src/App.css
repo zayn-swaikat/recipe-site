@@ -823,4 +823,12 @@ nav a:hover {
   .mobile-nav-dropdown a:last-child {
     border-bottom: none;
   }
+
+  .categories-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 4fr);
+  gap: 1.5rem;
+  max-width: 1150px;
+  margin: 0 auto;
+}
 }
