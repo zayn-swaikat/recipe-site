@@ -9,7 +9,7 @@ function Recipes() {
 
   const location = useLocation()
   const initialCategory = location.state?.category || "All"
-  
+
   const [search, setSearch] = useState("")
   const [category, setCategory] = useState(initialCategory)
   const [currentPage, setCurrentPage] = useState(1)

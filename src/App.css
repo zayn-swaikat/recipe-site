@@ -103,6 +103,7 @@ nav a {
   padding: 0.5em 1em;
   border-radius: 4px;
   transition: background 0.2s;
+  margin-right: 2rem;
 }
 
 nav a:hover {
